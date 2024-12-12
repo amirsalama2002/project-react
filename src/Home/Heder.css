@@ -1,0 +1,54 @@
+.home-heder{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    /* color: white; */
+    padding-top: 30px;
+   
+}
+.home-heder input{
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid white;
+    outline: 2px solid #123456;
+    border-radius: 5px;
+    border-radius: 30px;
+}
+  .home-heder p{
+    font-size: 23px;
+    font-weight: 200px;
+    text-align: center;
+  }
+.home-heder ul{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    padding: 20px 20px;
+
+}
+.home-heder .no{
+    display: flex;
+    width: 15%;
+    margin: auto;
+    text-align: center !important;
+}
+ .home-heder ul li{
+    width: 22rem;
+    margin:10px auto;
+    list-style: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    color: white;
+    height: 300px;
+    border: 2px solid blue;
+    background-image: url(https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxhY2t8ZW58MHx8MHx8fDA%3Dg);
+    background-size: cover;
+    background-position: center
+  }
