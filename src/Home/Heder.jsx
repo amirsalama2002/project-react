@@ -17,6 +17,7 @@ const Heder = () => {
         <li key={a.id}>
           <img src={a.image} alt="" />
           <li>{a.name}</li>
+          <h1>Amir </h1>
         </li>
        ))}
        </ul>
