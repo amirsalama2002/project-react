@@ -1,0 +1,36 @@
+.footer {
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  .footer .footername{
+    width: 85%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer .footername .footer1{
+    /* width: 10rem; */
+    margin: 0px 5px;
+
+  }
+  .footer .footername h4{
+    font-size: 20px;
+    font-weight:bold;
+  }
+
+.footer .footername p{
+  color: rgba(150, 145, 145, 0.871);
+}
+
+
+
+
+  .footer .footer-button{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  

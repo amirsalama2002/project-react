@@ -1,18 +1,21 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
 import React from "react";
 import { ThemeProvider } from "./ThemeProvider";
 import ThemeWrapper from "./ThemeWrapper";
-// import ThemeToggleButton from "./ThemeToggleButton";
+import Scroop from './Scroop';
 import Navbar from './Navbar/Navbar';
-// import Falcon from './Falcon';
+import Footer from './Footer/Footer';
 function App() {
   return (
     <ThemeProvider>
       <ThemeWrapper>
         <div>
           <Navbar/>
+          <Scroop/>
+          <Footer/>
           {/* <ThemeToggleButton /> */}
         </div>
       </ThemeWrapper>

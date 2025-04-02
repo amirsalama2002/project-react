@@ -1,0 +1,9 @@
+.Heder{
+    width:100%;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../../public/imgs/WPP-RT2025-Header-homemobile.png");
+    background-position: center;
+    height: 100vh;
+
+}

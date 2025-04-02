@@ -1,0 +1,40 @@
+.Folder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 10px;
+    width: 87%;
+    margin: auto;
+}
+
+.Folder .falcon{
+    width: 20rem;
+    margin: auto;
+    background-color: #0a325a;
+    margin: 10px;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+.Folder .falcon h1{
+    font-size: 20px;
+    font-weight: 100px;
+    color: white;
+}
+.Folder .falcon h2{
+    font-size: 20px;
+    color: rgba(2, 2, 52, 0.977);
+}
+.Folder .falcon h3{
+    font-size: 18px;
+    color: rgb(207, 199, 199);
+}
+.Folder .falcon h4{
+    font-size: 20px;
+    color: white;
+}
+.Folder .falcon h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

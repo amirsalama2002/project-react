@@ -1,17 +1,25 @@
 /* General Navbar Styling */
 .navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    padding: 0.7rem 8rem;
+    background-color: #17212b;
+    padding: 0.3rem 8rem;
     color: white;
-    box-shadow: 1px 1px 1px rgb(99, 83, 83);
+    box-shadow: 1px 1px 1px rgb(184, 162, 162);
   }
   
   .navbar-logo {
     font-size: 1.3rem;
     font-weight: bold;
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg,#a90cf3 0,#0d49ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: cursive;
   }
   
   .nav-links {
@@ -25,8 +33,9 @@
   
   .nav-links a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color-dark);
     font-size: 1rem;
+    font-weight: 500;
     transition: color 0.3s ease-in-out;
   }
   
@@ -52,25 +61,37 @@
     position: absolute;
     top: 70px;
     right: 0;
-    background-color: black;
+    background-color: #17212b;
     height: 90vh;
     width: 100%;
     text-align: center;
     padding: 1.5rem 0;
+    z-index: 999;
+    transition: 0.5s;
+    transform: 0.5s;
+
   }
   
   .nav-links-mobile .name {
     margin: 1.5rem 0;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
   }
   .nav-links .name{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 100px;
-    margin-top: 8px;
+    margin-top: 13px;
 
   }
   button{
     border: none;
     outline: none;
+  }
+  .mero{
+    background: none !important;
+    color: white;
+    border-radius: 50%;
+    margin-top: 13px;
   }
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -81,7 +102,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #080404;
       padding: 1rem 1rem;
       color: white;
       box-shadow: 2px 2px 2px white;

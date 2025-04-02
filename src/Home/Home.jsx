@@ -1,11 +1,13 @@
 import "./Home.css";
-import Post from "./Post";
 import Heder from "./Heder";
+import Contact from "./Contact";
+import Folder from "./Folder";
 function Home(){
     return(
-        <div>
-            <Post/>
+        <div className="Home">
             <Heder/>
+            <Contact/>
+            <Folder/>
         </div>
     )
 }

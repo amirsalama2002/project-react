@@ -1,0 +1,17 @@
+
+#mohassan{
+    padding-top: 100px;
+    align-items: center;
+    margin:30px auto;
+}
+#mohassan .mo{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(0, 0, 255, 0.751);
+    cursor: pointer;
+}
+
+#mohassan .btn{
+    margin-left: 10px;
+}
